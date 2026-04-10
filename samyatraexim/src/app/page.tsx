@@ -1,7 +1,7 @@
 import Link from "next/link";
 import pageConfig from "./pageConfig.json";
 // import componentRegistry from "./componentRegistry";
-import Logo from "../../public/samyatraexim_logo.png";
+// import Logo from "../../public/samyatraexim_logo.png";
 
 export const metadata = {
   title: 'Samyatra Exim - Global Trade Solutions',
@@ -10,7 +10,7 @@ export const metadata = {
     title: 'Samyatra Exim - Global Trade Solutions',
     description: 'Samyatra Exim is a leading export-import company with a strong presence in the global market.',
     url: 'https://samyatraexim.com/',
-    images: [{ url: Logo }],
+    images: [{ url: '../../public/samyatraexim_logo.png' }],
   },
 };
 
