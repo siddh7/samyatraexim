@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hero",
+    "component": "HeroSection",
+    "props": {
+      "badge": "Global Trade Experts",
+      "heading": "Welcome to Samyatra Exim",
+      "subheading": "Your trusted partner for seamless import & export solutions across 40+ countries.",
+      "primaryCta": { "label": "Get a Quote", "href": "#contact" },
+      "secondaryCta": { "label": "Our Services", "href": "#services" }
+    }
+  },
+  {
+    "id": "stats",
+    "component": "StatsSection",
+    "props": {
+      "items": [
+        { "value": "40+", "label": "Countries Served" },
+        { "value": "1200+", "label": "Shipments Completed" },
+        { "value": "15 yrs", "label": "Industry Experience" },
+        { "value": "99%", "label": "On-Time Delivery" }
+      ]
+    }
+  },
+  {
+    "id": "services",
+    "component": "ServicesSection",
+    "props": {
+      "heading": "What We Offer",
+      "subheading": "End-to-end trade solutions built for reliability and scale.",
+      "cards": [
+        {
+          "icon": "🚢",
+          "title": "Sea Freight",
+          "description": "Full container and LCL options with competitive rates worldwide."
+        },
+        {
+          "icon": "✈️",
+          "title": "Air Freight",
+          "description": "Express air cargo with real-time tracking and customs clearance."
+        },
+        {
+          "icon": "📦",
+          "title": "Warehousing",
+          "description": "Secure storage with inventory management and last-mile delivery."
+        },
+        {
+          "icon": "📋",
+          "title": "Customs Brokerage",
+          "description": "Expert handling of documentation, duties, and compliance."
+        },
+        {
+          "icon": "🌐",
+          "title": "Trade Consulting",
+          "description": "Strategic advice on regulations, tariffs, and market entry."
+        },
+        {
+          "icon": "🔒",
+          "title": "Cargo Insurance",
+          "description": "Comprehensive coverage for all shipment types and routes."
+        }
+      ]
+    }
+  },
+  {
+    "id": "cta",
+    "component": "CtaBanner",
+    "props": {
+      "heading": "Ready to ship smarter?",
+      "subheading": "Talk to our experts and get a custom logistics plan today.",
+      "cta": { "label": "Contact Us", "href": "#contact" }
+    }
+  }
+]
